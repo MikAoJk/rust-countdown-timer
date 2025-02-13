@@ -46,8 +46,7 @@ docker build -t rust-countdown-timer .
 ```
 
 ##### Running the docker image
-```bash script
-``` bash
+```bash 
 docker run -p 8080:8080 rust-countdown-timer
 ```
 
