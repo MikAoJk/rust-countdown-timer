@@ -2,7 +2,7 @@
 name = "rust-countdown-timer"
 version = "0.1.0"
 edition = "2021"
-
+rust-version = "1.84.1"
 
 [dependencies]
 tokio = { version = "1.43.0", features = ["rt", "rt-multi-thread", "macros", "time"] }
