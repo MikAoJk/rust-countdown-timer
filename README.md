@@ -1,5 +1,11 @@
 # rust countdown timer
-Application that takes a user input, of time in seconds and counts down to zero.
+Application that takes a user input, of time in seconds and counts down to zero,
+and terminates the application
+
+## Technologies used
+* Rust
+* Cargo
+* Docker
 
 ### Prerequisites
 #### Rust
