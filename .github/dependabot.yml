@@ -7,6 +7,10 @@ updates:
     ignore:
         - dependency-name: "semver"
         - dependency-name: "crates-io"
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
