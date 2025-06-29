@@ -51,7 +51,7 @@ mod tests {
     fn test_invalid_start_input() {
         let start_input = "a".to_string();
 
-        let start: u64 = match start_input.trim().parse() {
+        let _start: u64 = match start_input.trim().parse() {
             Ok(num) => num,
             Err(_) => {
                 panic!("Please enter a valid integer");
