@@ -5,4 +5,4 @@ edition = "2021"
 rust-version = "1.84.1"
 
 [dependencies]
-tokio = { version = "1.45.1", features = ["rt", "rt-multi-thread", "macros", "time"] }
+tokio = { version = "1.46.1", features = ["rt", "rt-multi-thread", "macros", "time"] }
